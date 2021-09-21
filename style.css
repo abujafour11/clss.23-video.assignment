@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.fix-width {
+  max-width: 1350px;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* =========hader============ */
+.header {
+  background-color: #341f97;
+  padding: 15px 0;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo img {
+  width: 90px;
+}
+.menu {
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+}
+.menu ul li a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  display: block;
+  padding: 18px 20px;
+}
+
+/* ;box-section===== */
+.box-items {
+  display: flex;
+  margin-top: 20px;
+}
+.box-1 {
+  border: 2px solid red;
+  background-color: #eee;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.box-1 p {
+  color: green;
+  line-height: 30px;
+}
+.me {
+  margin-right: 10px;
+}
+
+/* flex-section===== */
+.flex {
+  margin-top: 30px;
+}
+.flex-content {
+  display: flex;
+}
+.flex-box {
+  border: 2px solid black;
+  flex: 1 0 0%;
+  padding: 20px;
+}
+.row-3 {
+  flex-grow: 3;
+}
+
+/* =========flex-box======== */
+.img-box {
+  margin-top: 30px;
+}
+
+.fb-items {
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fb-1 {
+}
+.fb-inn {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.fb-inn h4 {
+  width: 120px;
+  height: 70px;
+  background-color: rgb(110, 187, 110);
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+/* =======footer============= */
+
+.footer {
+  background-color: black;
+  margin-top: 50px;
+  padding: 20px 0;
+}
+.footer h2 {
+  text-align: center;
+  color: #fff;
+}
